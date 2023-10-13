@@ -11,7 +11,7 @@ const Register = () => {
                         id="enterID"
                         placeholder='Enter Full Name'
                         name="enterID"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:border-blue-500"
                     />
                 </div>
                 <div className="mb-4">
@@ -20,7 +20,7 @@ const Register = () => {
                         id="enterID"
                         placeholder='Enter Telephone Number'
                         name="enterID"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:border-blue-500"
                     />
                 </div>
 
@@ -31,7 +31,7 @@ const Register = () => {
                         id="password"
                         placeholder='Enter Password'
                         name="password"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:border-blue-500"
                     />
                 </div>
                 <div className="mb-4">
@@ -41,11 +41,11 @@ const Register = () => {
                         id="password"
                         placeholder='Re-enter Password'
                         name="password"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:border-blue-500"
                     />
                 </div>
 
-                <div className="flex justify-center mt-14 mb-2">
+                <div className="flex justify-center mt-10 mb-2">
                     <button
                         className="w-auto bg-[#26E87F] text-white px-5 py-2 font-semibold rounded hover:bg-green-600 focus:outline-none"
                     >
@@ -53,9 +53,9 @@ const Register = () => {
                     </button>
                 </div>
                 <p className="mt-4 text-center font-semibold text-sm text-white mb-16">
-                    Do you have an account? Click
+                    Do you already have an account? Click
                     <Link href="/login">
-                        <span className="text-green-500 hover:underline"> Login</span>
+                        <span className="text-green-500 hover:underline"> Sign In</span>
                     </Link>
                 </p>
             </div>

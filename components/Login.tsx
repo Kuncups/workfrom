@@ -11,7 +11,7 @@ const Login = () => {
                         id="enterID"
                         placeholder='Enter ID'
                         name="enterID"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:border-blue-500"
                     />
                 </div>
                 <div className="mb-4">
@@ -21,7 +21,7 @@ const Login = () => {
                         id="password"
                         placeholder='Password'
                         name="password"
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full p-2 border border-gray-300 text-black rounded focus:outline-none focus:border-blue-500"
                     />
                 </div>
                 <div className="flex justify-center mt-14 mb-24">
